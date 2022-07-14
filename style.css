@@ -25,63 +25,94 @@
 
  .texto p {
    padding: 1em;
-   position: relative;
-   height: 55vh;
-   width: 45%;
+   height: 55%;
+   width: min(60%, 65em);
    background: #410052;
    border: solid 2px #ffffff;
    font-size: 15px;
    margin: 35px;
    color: #ffffff;
+   margin-left: auto;
+   margin-right: auto;
  }
 
- .texto a {
+ .link p {
+  border-top: solid 2px #ffffff;
+  border-bottom: solid 2px #ffffff;
+  text-align: center;
    padding: 1em;
-   position: absolute;    
-   height: 8vh;
-   width: 12vh;
+   background: #410052;
+   font-size: 18px;
+   margin: 35px;
+   color: #ffffff;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .link button{
+  color: #ffffff;
+  background: #410052;
+  border: solid 1px #ffffff;;
+  font-size: 25px;
+  padding-inline: 1em;
+  border-radius: 10px;
+  font-weight: 1000;
+  line-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ button:hover{
+  cursor: pointer;
+ }
+.lista{
+  width: min(60%, 65em);
+  margin-inline:auto;
+}
+ .lista ul{
+   padding: 2em;    
+   height: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
    background: #410052;
    border: solid 2px #ffffff;
    font-size: 15px;
    margin: 35px;
    color: #ffffff;
-   left: 58%;
-   top: 45%;
-
  }
 
- .texto ul{
-   padding: 1em;
-   position: absolute;    
-   height: 24vh;
-   width: 19vh;
-   background: #410052;
-   border: solid 2px #ffffff;
-   font-size: 15px;
-   margin: 35px;
-   color: #ffffff;
-   left: 48%;
-   top: 55%;
- }
-
- img {
-   position: absolute;
-    width: 40%;
+.imagen_propia img {
+    width: min(100%, 12em);
     border: solid 4px white;
-    left: 58%;
-    top: 28%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    margin:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  }
 
- .experiencia p {
-   padding: 1em;
-   background: #410052;
-   border: solid 2px #ffffff;
-   font-size: 15px;
-   margin: 35px;
-   color: #ffffff;
+ 
+ .final  p {
+  padding: 1em;
+  height: 55%;
+  width: min(60%, 65em);
+  margin-inline:auto;
+  background: #410052;
+  border: solid 2px #ffffff;
+  font-size: 15px;
+  margin: 35px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
  }
 
- .experiencia h3 {
+ .final h3 {
       background: #400150;
       text-align: center;
        font-size: 40px;
