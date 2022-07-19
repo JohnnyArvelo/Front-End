@@ -43,7 +43,6 @@
    padding: 1em;
    background: #410052;
    font-size: 18px;
-   margin: 35px;
    color: #ffffff;
    display: block;
    margin-left: auto;
@@ -55,6 +54,7 @@
   background: #410052;
   border: solid 1px #ffffff;;
   font-size: 25px;
+  margin: 25px;
   padding-inline: 1em;
   border-radius: 10px;
   font-weight: 1000;
@@ -84,6 +84,10 @@
    color: #ffffff;
  }
 
+.imagen_propia {
+  background: url("fondo.png") no-repeat center center;
+  background-size: cover;
+} 
 .imagen_propia img {
     width: min(100%, 12em);
     border: solid 4px white;
@@ -91,14 +95,13 @@
     border-top-right-radius: 50% 50%;
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
-    margin:20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
  }
 
  
- .final  p {
+ .habilidades  p {
   padding: 1em;
   height: 55%;
   width: min(60%, 65em);
@@ -112,12 +115,61 @@
   margin-right: auto;
  }
 
- .final h3 {
+ .habilidades h3 {
       background: #400150;
       text-align: center;
        font-size: 40px;
        color: white
     }
+
+.comienzo  p {
+  padding: 1em;
+  height: 55%;
+  width: min(60%, 65em);
+  margin-inline:auto;
+  background: #410052;
+  border: solid 2px #ffffff;
+  font-size: 15px;
+  margin: 35px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+.comienzo h3 {
+  background: #400150;
+  text-align: center;
+  font-size: 40px;
+  color: white
+}   
+
+.comienzo img {
+  width: min(100%, 20em);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.procesos  p {
+  padding: 1em;
+  height: 55%;
+  width: min(60%, 65em);
+  margin-inline:auto;
+  background: #410052;
+  border: solid 2px #ffffff;
+  font-size: 15px;
+  margin: 35px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+.procesos h3 {
+  background: #400150;
+  text-align: center;
+  font-size: 40px;
+  color: white
+} 
 
  body {
     background:#831d9c
