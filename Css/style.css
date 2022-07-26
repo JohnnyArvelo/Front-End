@@ -90,11 +90,11 @@ header.portada{
 
 
  .link {
-  background: url("/Imagenes/fondo.png") no-repeat center center;
+  background: url("/Imagenes/fondo 2.png") no-repeat center center;
   background-size: cover;
   margin-top: 50px;
- max-width: 100%;
- height: auto;
+  max-width: 100%;
+  height: auto;
  }
 
  .link h1 {
@@ -126,6 +126,13 @@ header.portada{
   -moz-border-radius: 20px 10px 50px 30px;
   text-decoration: none;
   background: #400150;
+  position: fixed;
+  bottom: .5em;
+  left: 0;
+  right: 0;
+  width: min(100%, 300px);
+  margin-inline: auto;
+  z-index: 9999;
 }
 
 .link a i{
@@ -144,21 +151,34 @@ header.portada{
 
 .barra_contenidos h3{
   font-size: 26px;
+  font: 1em sans-serif;
 }
 
 .años{
-  padding: 15px;
+  min-height: 12em;
   background: #520e5f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .suscriptores{
-  padding: 15px;
   background: #36073f;
+  min-height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .videos{
-  padding: 15px;
   background: #19031d;
+  min-height: 12em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .linea_1 {
@@ -195,7 +215,8 @@ header.portada{
  }
 
  .icon-video{
-  font-size: 40px; 
+  font-size: 40px;
+  color: #d152e3; 
 }
 
 .edicion {
@@ -216,7 +237,8 @@ header.portada{
  }
 
  .icon-music{
-  font-size: 40px; 
+  font-size: 40px;
+  color: #d152e3; 
 }
 .estudiante {
   text-align: center;
@@ -236,7 +258,8 @@ header.portada{
  }
 
  .icon-newspaper{
-  font-size: 40px; 
+  font-size: 40px;
+  color: #d152e3; 
 }
 .imagen_propia {
   padding: 20px;
@@ -299,7 +322,7 @@ header.portada{
 
 .comienzo  p {
   text-align: center;
-  padding: 5px;
+  padding: 1em;
   margin-inline:auto;
   font-size: 16px;
   margin: 10px;
@@ -312,7 +335,7 @@ header.portada{
   text-align: center;
   padding: 5px;
   margin-inline:auto;
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px;
   color: #ffffff;
   margin-left: auto;
@@ -336,26 +359,28 @@ header.portada{
   margin-right: auto;
 }
 
+.proceso {
+  background: #400150;
+}
 .procesos  p {
+  text-align: center;
   padding: 1em;
-  height: 55%;
-  width: min(60%, 65em);
   margin-inline:auto;
-  background: #410052;
-  border: solid 2px #ffffff;
-  font-size: 15px;
-  margin: 35px;
+  font-size: 16px;
+  margin: 10px;
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
-    
+
 .procesos h3 {
-  background: #400150;
+  border-top: solid 2px #ffffff ;
+  border-bottom: solid 2px #ffffff ;
+  background: #26052c;
   text-align: center;
   font-size: 40px;
   color: white
-} 
+}   
 
 .procesos ol{
   padding: 2em;    
