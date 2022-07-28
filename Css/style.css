@@ -275,6 +275,7 @@ header.portada{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 14px 14px 0 rgba(0, 0, 0, 0.15);
  }
 
  
@@ -360,6 +361,7 @@ header.portada{
 }
 
 .proceso {
+  margin-top: 30px;
   background: #400150;
 }
 .procesos  p {
@@ -382,17 +384,91 @@ header.portada{
   color: white
 }   
 
-.procesos ol{
-  padding: 2em;    
-  height: 30%;
-  display: block;
+.reaccion h4{
   margin-left: auto;
   margin-right: auto;
-  background: #410052;
-  border: solid 2px #ffffff;
-  font-size: 20px;
-  margin: 35px;
-  color: #ffffff;
+  border-top: solid 2px #ffffff ;
+  border-bottom: solid 2px #ffffff ;
+  text-align: center;    
+  height: 50%;
+  width: 50%;
+  font-size: 24px;
+  color: white
+}   
+
+.reaccion_1 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 50%;
+  width: 50%;
+}
+
+.reacciones img{
+  height: 50px;
+  width: 50px;
+}
+
+.imagen_1{
+  padding: 15px;
+}
+
+#publico {
+  width: 70px;
+}
+.reaccion_2 {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 50%;
+  width: 50%;
+  left: 40%;
+  margin-inline:inherit;
+}
+
+.imagen_2{
+  padding: 15px;
+}
+
+#aprobado {
+  width: 70px;
+}
+.reaccion_3 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 50%;
+  width: 50%;
+}
+
+.imagen_3{
+  padding: 15px;
+}
+
+#camara {
+  width: 70px;
 }
 
  body {
