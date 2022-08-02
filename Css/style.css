@@ -125,7 +125,7 @@ header.portada{
   -webkit-border-radius: 20px 10px 50px 30px;
   -moz-border-radius: 20px 10px 50px 30px;
   text-decoration: none;
-  background: #400150;
+  background: #764d9f;
   position: fixed;
   bottom: .5em;
   left: 0;
@@ -396,6 +396,11 @@ header.portada{
   color: white
 }   
 
+.reacciones{
+  display: flex;
+    flex-wrap: wrap;
+}
+
 .reaccion_1 {
   text-align: center;
   margin: 30px;
@@ -411,7 +416,7 @@ header.portada{
   font-size: 14px;
   color: white;
   height: 60%;
-  width: 70%;
+  width: min(100%, 25em);
   box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
@@ -427,24 +432,6 @@ header.portada{
 #publico {
   width: 70px;
 }
-.reaccion_2 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
-}
 
 .imagen_2{
   padding: 15px;
@@ -452,24 +439,6 @@ header.portada{
 
 #aprobado {
   width: 70px;
-}
-.reaccion_3 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 .imagen_3{
@@ -492,6 +461,11 @@ header.portada{
   color: white
 } 
 
+.resumenes{
+  display: flex;
+    flex-wrap: wrap;
+}
+
 .resumen_1 {
   text-align: center;
   margin: 30px;
@@ -507,7 +481,7 @@ header.portada{
   font-size: 14px;
   color: white;
   height: 60%;
-  width: 70%;
+  width: min(100%, 25em);
   box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
@@ -519,92 +493,17 @@ header.portada{
 #libros {
   width: 70px;
 }
-.resumen_2 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
-}
 
 #grabacion {
   width: 70px;
-}
-
-.resumen_3 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 #narrador {
   width: 70px;
 }
 
-.resumen_4 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
-}
-
 #copyright {
   width: 70px;
-}
-
-.resumen_5 {
-  text-align: center;
-  margin: 30px;
-  padding: 1em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #1f1120;
-  border: solid 5px #260e2c65;
-  border-radius: 20px 20px 20px 20px;
- -webkit-border-radius: 20px 20px 20px 20px;
- -moz-border-radius: 20px 20px 20px 20px;
-  font-size: 14px;
-  color: white;
-  height: 60%;
-  width: 70%;
-  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 #etiquetas {
