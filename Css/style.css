@@ -400,6 +400,9 @@ header.portada{
   text-align: center;
   margin: 30px;
   padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: #1f1120;
   border: solid 5px #260e2c65;
   border-radius: 20px 20px 20px 20px;
@@ -407,8 +410,9 @@ header.portada{
  -moz-border-radius: 20px 20px 20px 20px;
   font-size: 14px;
   color: white;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 .reacciones img{
@@ -424,10 +428,12 @@ header.portada{
   width: 70px;
 }
 .reaccion_2 {
-  position: relative;
   text-align: center;
   margin: 30px;
   padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: #1f1120;
   border: solid 5px #260e2c65;
   border-radius: 20px 20px 20px 20px;
@@ -435,10 +441,9 @@ header.portada{
  -moz-border-radius: 20px 20px 20px 20px;
   font-size: 14px;
   color: white;
-  height: 50%;
-  width: 50%;
-  left: 40%;
-  margin-inline:inherit;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 .imagen_2{
@@ -452,6 +457,9 @@ header.portada{
   text-align: center;
   margin: 30px;
   padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: #1f1120;
   border: solid 5px #260e2c65;
   border-radius: 20px 20px 20px 20px;
@@ -459,8 +467,9 @@ header.portada{
  -moz-border-radius: 20px 20px 20px 20px;
   font-size: 14px;
   color: white;
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
 }
 
 .imagen_3{
@@ -470,6 +479,161 @@ header.portada{
 #camara {
   width: 70px;
 }
+
+.resumen h4{
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 2px #ffffff ;
+  border-bottom: solid 2px #ffffff ;
+  text-align: center;    
+  height: 50%;
+  width: 50%;
+  font-size: 24px;
+  color: white
+} 
+
+.resumen_1 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+
+.resumenes img{
+  height: 50px;
+  width: 50px;
+}
+
+#libros {
+  width: 70px;
+}
+.resumen_2 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+
+#grabacion {
+  width: 70px;
+}
+
+.resumen_3 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+
+#narrador {
+  width: 70px;
+}
+
+.resumen_4 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+
+#copyright {
+  width: 70px;
+}
+
+.resumen_5 {
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: 70%;
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+
+#etiquetas {
+  width: 70px;
+}
+
+.programas {
+  margin-top: 30px;
+  background: #400150;
+}
+.programas_necesarios  p {
+  text-align: center;
+  padding: 1em;
+  margin-inline:auto;
+  font-size: 16px;
+  margin: 10px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programas_necesarios h3 {
+  border-top: solid 2px #ffffff ;
+  border-bottom: solid 2px #ffffff ;
+  background: #26052c;
+  text-align: center;
+  font-size: 40px;
+  color: white
+}   
 
  body {
     background:#764d9f
