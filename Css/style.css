@@ -534,6 +534,36 @@ header.portada{
   color: white
 }   
 
+.descripcion_programas{
+  text-align: center;
+  margin: 30px;
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1f1120;
+  border: solid 5px #260e2c65;
+  border-radius: 20px 20px 20px 20px;
+ -webkit-border-radius: 20px 20px 20px 20px;
+ -moz-border-radius: 20px 20px 20px 20px;
+  font-size: 14px;
+  color: white;
+  height: 60%;
+  width: min(100%, 25em);
+  box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+}
+.descripcion_programas img{
+  width: min(100%, 8em);
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orden_programas{
+  display: flex;
+  flex-wrap: wrap;
+}
  body {
     background:#764d9f
  }
