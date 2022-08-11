@@ -32,8 +32,8 @@
   position: absolute;
   top:50px;
   left: 0;
-  width: 100%;
-  height: 41.5vh;
+  width: 100vh;
+  height: 28vh;
   background: rgba(#520e5f, #520e5f, #520e5f, alpha);
   transition: all 0.5s;
   transform: translateX(-100%);
@@ -61,6 +61,7 @@ header.portada{
 
 #menu-bar:checked ~.menu {
   transform: translateX(0%);
+  background: #764d9f;
 }
 
 @media (min-width:1024px){
@@ -535,6 +536,7 @@ header.portada{
 }   
 
 .descripcion_programas{
+  margin-block-end: 7em;
   text-align: center;
   margin: 30px;
   padding: 1em;
