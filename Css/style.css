@@ -536,7 +536,6 @@ header.portada{
 }   
 
 .descripcion_programas{
-  margin-block-end: 7em;
   text-align: center;
   margin: 30px;
   padding: 1em;
@@ -553,6 +552,7 @@ header.portada{
   height: 60%;
   width: min(100%, 25em);
   box-shadow: -1px -1px 6px 0 rgb(165, 43, 159), 4px 4px 16px 2px rgb(68, 17, 60);
+  margin-block-end: 7em;
 }
 .descripcion_programas img{
   width: min(100%, 8em);
